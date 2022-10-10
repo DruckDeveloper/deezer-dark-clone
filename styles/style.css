@@ -5,9 +5,112 @@ Fuente de titulos: font-family: Arial, Helvetica, sans-serif;
 
 *{
     width: 100%;
-    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
+    background-color: #000000;
+    margin: auto;
     max-width: 640px;
+    text-align: center;
 }
+#dylan_section h1{
+    color: #ffffff;
+    font-size: 42px;
+}
+#dylan_section h2{
+    color: #ffffff;
+}
+
+.card{
+    width: 650px;
+    border-radius: 20px;
+}
+.card1{
+    box-sizing: border-box;
+    background:  linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+    height: 281px;
+}
+.card_text{
+    color: #ffffff;
+}
+.card_title{
+    padding-top: 20px;
+}
+.card_content a{
+    text-decoration: none;
+}
+.card_button{
+    width: 60%;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 20px 50px;
+    margin: auto;
+    text-align: center;
+}
+.card_button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+}
+.more_info{
+    display: inline-block;
+    padding-bottom: 20px;
+    color: #ffffff7e;
+}
+
+.card2{
+    background-image: linear-gradient(53.13deg, rgb(220, 76, 17) 10.71%, rgb(254, 171, 46));
+    height: 480px;
+}
+.month_free{
+    font-size: 32px;
+    color: #ffffff;
+}
+.more_info_2{
+    color: #ffffff7e;
+}
+
+/*
+.card_container .card{
+    border-radius: 20px;
+    width: 650px;
+}
+.cards_container .card1{
+    background-color:  #04007a;
+    width: 650px;
+}
+.card_container .card .card_content a{
+    display: inline-block;
+}
+.card_container .card .card_content{
+    border-radius: 20px;
+    width: 100%;
+}
+.card_content .card_text{
+    text-align: center;
+    color: #ffffff;
+}
+.card_content .card_button{
+    width: 60%;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 20px 50px;
+    margin: auto;
+    text-align: center;
+}
+.card_content .card_button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+}
+.card_container .card2{
+    width: 650px;
+    background-color: #ae4000;
+} */
