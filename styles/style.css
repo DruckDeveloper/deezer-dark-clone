@@ -105,3 +105,39 @@ body{
     height: 419PX;
     background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);;
 }
+
+.promo_button{
+    display: flex;
+    align-items: center;
+    width: 640px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    position: relative;
+}
+.promo_button:hover{
+    cursor: pointer;
+}
+
+.promo_button > p{
+    top: 30%;
+}
+.promo_button p{
+    display: inline-block;
+}
+.promo_button .discount_text{
+    height: 35px;
+    width: 35px;
+    color: #ffffff;
+    position: absolute;
+    left: 90%;
+    top: 15%;
+}
+
+.discount_text .discount_percentage{
+    padding: 5px 10px;
+    background:  linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+    border-radius: 10px;
+    margin: auto;
+}
