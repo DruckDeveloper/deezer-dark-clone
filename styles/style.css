@@ -3,7 +3,6 @@ Fuente de parrafos: font-family: 'Roboto', sans-serif;
 Fuente de titulos: font-family: Arial, Helvetica, sans-serif;
 */
 
-<<<<<<< HEAD
 *{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -142,7 +141,6 @@ body{
     border-radius: 10px;
     margin: auto;
 }
-=======
 *{    font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -301,4 +299,3 @@ p{
     margin-left: -5px;
 }
 /*
->>>>>>> c1d0ffc298c0b5e7882debff10116632a6e99bcc
