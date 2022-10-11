@@ -359,15 +359,19 @@ p{
 }
 .imageen{
     height:60px;
-    width:143px;
+    width:163px;
 }
 .imagenn{
-    height:45px;
-    width:134
+    height:35px;
+    width:134px;
+    margin-right: 10px;
+    
 }
 .cellap{ 
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .barrass{
     display: flex;
@@ -386,4 +390,48 @@ p{
 }
 footer{
     max-width: 100%;
+}
+.conta{
+    margin-bottom: 20px;
+
+}
+.barrass ul li .conta{
+    color: #ffffff;
+}
+.foot img{
+    
+    width:154px;
+    margin-right: 10px;
+}
+.foot {
+    display: flex;
+    
+    width: 100%;
+    
+    justify-content: center;
+}
+.redess img{
+    width:20px;
+}
+
+
+.redess{
+    justify-content: space-around;
+    width: 150px;
+    display: flex;
+    margin-left:40px ;
+}
+.latam{
+    text-align: right;
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: -40px;
+    
+}
+#jose{
+    margin-right: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: 10px;
 }
