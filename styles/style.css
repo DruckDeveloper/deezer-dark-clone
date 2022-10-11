@@ -8,46 +8,6 @@ Fuente de titulos: font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
-.cont{
-    display: flex;
-    margin: auto;
-    width: 100%;
-    justify-content: center;
-    grid-gap: -225px;
-    position: absolute;
-    top: auto;
-    z-index: -1;
-    margin-left: 25%;
-    height: 80%;
-
-}
-.a, .b, .c, .d{
-margin-left: -60%;
-}
-.a{
-    width: 100%;
-    height: 100%;
-
-    background: radial-gradient(circle, rgba(255, 81, 0, 0.0) 0%, rgba(110,9,121,0) 52%, rgba(36,0,36,0) 100%);
-}
-.b{
-    width: 100%;
-    background: radial-gradient(circle, rgba(255, 0, 234, 0.19) 0%, rgba(110,9,121,0) 52%, rgba(36,0,36,0) 100%);
-}
-.c{
-    width: 100%;
-    background: radial-gradient(circle, rgba(0, 225, 255, 0.19) 0%, rgba(110,9,121,0) 52%, rgba(36,0,36,0) 100%);
-}
-.d{
-    width: 100%;
-    background: radial-gradient(circle, rgba(0, 255, 21, 0.1) 0%, rgba(110,9,121,0) 52%, rgba(36,0,36,0) 100%);
-}
-
-
-
-
-
 .arreglo{
     width: 640px;
     margin: auto;
@@ -339,9 +299,8 @@ p{
     align-self: flex-start;
     margin: auto;
 }
-.barrass ul li{
-    list-style: none;
-}
+
+
 .catalogo h1{
     margin-bottom: 50px;
 }
@@ -446,4 +405,82 @@ p{
 
 .flowimg img{
     width: 1100px;
+}
+.imageen{
+    height:60px;
+    width:163px;
+}
+.imagenn{
+    height:35px;
+    width:134px;
+    margin-right: 10px;
+    
+}
+.cellap{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.barrass{
+    display: flex;
+    text-align: left;
+    line-height: 30px;
+    
+}
+.barrass ul li{
+    list-style: none;
+    color: #a6a6a6;
+    
+}
+.barrass ul{
+    
+    font-size: 14px;
+}
+footer{
+    max-width: 100%;
+}
+.conta{
+    margin-bottom: 20px;
+
+}
+.barrass ul li .conta{
+    color: #ffffff;
+}
+.foot img{
+    
+    width:154px;
+    margin-right: 10px;
+}
+.foot {
+    display: flex;
+    
+    width: 100%;
+    
+    justify-content: center;
+}
+.redess img{
+    width:20px;
+}
+
+
+.redess{
+    justify-content: space-around;
+    width: 150px;
+    display: flex;
+    margin-left:40px ;
+}
+.latam{
+    text-align: right;
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: -40px;
+    
+}
+#jose{
+    margin-right: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: 10px;
 }
