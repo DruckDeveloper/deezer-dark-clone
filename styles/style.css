@@ -5,6 +5,7 @@ Fuente de titulos: font-family: Arial, Helvetica, sans-serif;
 
 *{
     width: 100%;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -140,4 +141,11 @@ body{
     background:  linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
     border-radius: 10px;
     margin: auto;
+=======
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    max-width: 640px;
+>>>>>>> 9150a476bb86db5e0b2b782f17dea9c18e49acb1
 }
