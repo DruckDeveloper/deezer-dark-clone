@@ -23,7 +23,8 @@ body{
     background-color: #121216;
     margin: auto;;
     text-align: center;
-    color:#ffffff
+    color:#ffffff;
+    overflow-x: hidden;
 }
 
 #web_header{
